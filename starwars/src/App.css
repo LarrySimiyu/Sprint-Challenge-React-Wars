@@ -6,3 +6,28 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.character-card {
+  border: 3px solid white;
+  margin: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: black; 
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		 box-shadow: 0 4px 8px 0 rgb(255, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.995);
+		transform: translatey(0px);
+	}
+	50% {
+		 box-shadow: 0 4px 8px 0 rgb(255, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.995);
+		transform: translatey(-20px);
+	}
+	100% {
+		 box-shadow: 0 4px 8px 0 rgb(255, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.995);
+		transform: translatey(0px);
+	}
+}
