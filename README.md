@@ -26,11 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a javascript library that is made up of HTML and uses components. React helps greatly with scaling through the use of components. 
+
+
+
 - [ ] What does it mean to _think_ in react?
+
+    Thinking react means thinking in terms of how code can be re-used in the future. Seeing which parts of your page can be broken down into components.
 
 - [ ] Describe state.
 
+  State is what's used anytime you want to start moving data around.
+
 - [ ] Describe props.
+Props is the information that gets passed fown from state. Without it you can't pass information from parent to child.
 
 ## Project Set Up
 
